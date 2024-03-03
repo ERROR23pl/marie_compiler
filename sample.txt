@@ -1,0 +1,11 @@
+#main
+    var $spam1 = $1
+    var $spam2 = $2
+    var $spam3
+
+    add $spam3, $spam1, $spam2
+    
+    load $spam3
+    output
+
+    halt
