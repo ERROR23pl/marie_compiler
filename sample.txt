@@ -1,11 +1,8 @@
 #main
-    var $spam1 = $1
-    var $spam2 = $2
-    var $spam3
-
-    add $spam3, $spam1, $spam2
-    
-    load $spam3
-    output
-
+    let $other
+    let $var
+    let $var2 = $10
+    let $var3 = $other
+    let const $c = $14
+    let const $c2 = $var
     halt
